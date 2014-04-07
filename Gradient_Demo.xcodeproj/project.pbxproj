@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA13F51A18EFC49400506E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F51918EFC49400506E83 /* Foundation.framework */; };
+		EA13F51C18EFC49400506E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F51B18EFC49400506E83 /* CoreGraphics.framework */; };
+		EA13F51E18EFC49400506E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F51D18EFC49400506E83 /* UIKit.framework */; };
+		EA13F52418EFC49400506E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA13F52218EFC49400506E83 /* InfoPlist.strings */; };
+		EA13F52618EFC49400506E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F52518EFC49400506E83 /* main.m */; };
+		EA13F52A18EFC49400506E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F52918EFC49400506E83 /* AppDelegate.m */; };
+		EA13F52D18EFC49400506E83 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA13F52B18EFC49400506E83 /* Main_iPhone.storyboard */; };
+		EA13F53018EFC49400506E83 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA13F52E18EFC49400506E83 /* Main_iPad.storyboard */; };
+		EA13F53318EFC49400506E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F53218EFC49400506E83 /* ViewController.m */; };
+		EA13F53518EFC49400506E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA13F53418EFC49400506E83 /* Images.xcassets */; };
+		EA13F53C18EFC49400506E83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F53B18EFC49400506E83 /* XCTest.framework */; };
+		EA13F53D18EFC49400506E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F51918EFC49400506E83 /* Foundation.framework */; };
+		EA13F53E18EFC49400506E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA13F51D18EFC49400506E83 /* UIKit.framework */; };
+		EA13F54618EFC49400506E83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA13F54418EFC49400506E83 /* InfoPlist.strings */; };
+		EA13F54818EFC49400506E83 /* Gradient_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F54718EFC49400506E83 /* Gradient_DemoTests.m */; };
+		EA13F55318EFC52000506E83 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA13F55218EFC52000506E83 /* GradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA13F53F18EFC49400506E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA13F50E18EFC49400506E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA13F51518EFC49400506E83;
+			remoteInfo = Gradient_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA13F51618EFC49400506E83 /* Gradient_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradient_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA13F51918EFC49400506E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA13F51B18EFC49400506E83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA13F51D18EFC49400506E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA13F52118EFC49400506E83 /* Gradient_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gradient_Demo-Info.plist"; sourceTree = "<group>"; };
+		EA13F52318EFC49400506E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA13F52518EFC49400506E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA13F52718EFC49400506E83 /* Gradient_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gradient_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		EA13F52818EFC49400506E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA13F52918EFC49400506E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA13F52C18EFC49400506E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EA13F52F18EFC49400506E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EA13F53118EFC49400506E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA13F53218EFC49400506E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA13F53418EFC49400506E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA13F53A18EFC49400506E83 /* Gradient_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gradient_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA13F53B18EFC49400506E83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA13F54318EFC49400506E83 /* Gradient_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gradient_DemoTests-Info.plist"; sourceTree = "<group>"; };
+		EA13F54518EFC49400506E83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA13F54718EFC49400506E83 /* Gradient_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gradient_DemoTests.m; sourceTree = "<group>"; };
+		EA13F55118EFC52000506E83 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		EA13F55218EFC52000506E83 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA13F51318EFC49400506E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F51C18EFC49400506E83 /* CoreGraphics.framework in Frameworks */,
+				EA13F51E18EFC49400506E83 /* UIKit.framework in Frameworks */,
+				EA13F51A18EFC49400506E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13F53718EFC49400506E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F53C18EFC49400506E83 /* XCTest.framework in Frameworks */,
+				EA13F53E18EFC49400506E83 /* UIKit.framework in Frameworks */,
+				EA13F53D18EFC49400506E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA13F50D18EFC49400506E83 = {
+			isa = PBXGroup;
+			children = (
+				EA13F51F18EFC49400506E83 /* Gradient_Demo */,
+				EA13F54118EFC49400506E83 /* Gradient_DemoTests */,
+				EA13F51818EFC49400506E83 /* Frameworks */,
+				EA13F51718EFC49400506E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA13F51718EFC49400506E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F51618EFC49400506E83 /* Gradient_Demo.app */,
+				EA13F53A18EFC49400506E83 /* Gradient_DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA13F51818EFC49400506E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F51918EFC49400506E83 /* Foundation.framework */,
+				EA13F51B18EFC49400506E83 /* CoreGraphics.framework */,
+				EA13F51D18EFC49400506E83 /* UIKit.framework */,
+				EA13F53B18EFC49400506E83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA13F51F18EFC49400506E83 /* Gradient_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F52818EFC49400506E83 /* AppDelegate.h */,
+				EA13F52918EFC49400506E83 /* AppDelegate.m */,
+				EA13F52B18EFC49400506E83 /* Main_iPhone.storyboard */,
+				EA13F52E18EFC49400506E83 /* Main_iPad.storyboard */,
+				EA13F53118EFC49400506E83 /* ViewController.h */,
+				EA13F53218EFC49400506E83 /* ViewController.m */,
+				EA13F55118EFC52000506E83 /* GradientView.h */,
+				EA13F55218EFC52000506E83 /* GradientView.m */,
+				EA13F53418EFC49400506E83 /* Images.xcassets */,
+				EA13F52018EFC49400506E83 /* Supporting Files */,
+			);
+			path = Gradient_Demo;
+			sourceTree = "<group>";
+		};
+		EA13F52018EFC49400506E83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F52118EFC49400506E83 /* Gradient_Demo-Info.plist */,
+				EA13F52218EFC49400506E83 /* InfoPlist.strings */,
+				EA13F52518EFC49400506E83 /* main.m */,
+				EA13F52718EFC49400506E83 /* Gradient_Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA13F54118EFC49400506E83 /* Gradient_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F54718EFC49400506E83 /* Gradient_DemoTests.m */,
+				EA13F54218EFC49400506E83 /* Supporting Files */,
+			);
+			path = Gradient_DemoTests;
+			sourceTree = "<group>";
+		};
+		EA13F54218EFC49400506E83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA13F54318EFC49400506E83 /* Gradient_DemoTests-Info.plist */,
+				EA13F54418EFC49400506E83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA13F51518EFC49400506E83 /* Gradient_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA13F54B18EFC49400506E83 /* Build configuration list for PBXNativeTarget "Gradient_Demo" */;
+			buildPhases = (
+				EA13F51218EFC49400506E83 /* Sources */,
+				EA13F51318EFC49400506E83 /* Frameworks */,
+				EA13F51418EFC49400506E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradient_Demo;
+			productName = Gradient_Demo;
+			productReference = EA13F51618EFC49400506E83 /* Gradient_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA13F53918EFC49400506E83 /* Gradient_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA13F54E18EFC49400506E83 /* Build configuration list for PBXNativeTarget "Gradient_DemoTests" */;
+			buildPhases = (
+				EA13F53618EFC49400506E83 /* Sources */,
+				EA13F53718EFC49400506E83 /* Frameworks */,
+				EA13F53818EFC49400506E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA13F54018EFC49400506E83 /* PBXTargetDependency */,
+			);
+			name = Gradient_DemoTests;
+			productName = Gradient_DemoTests;
+			productReference = EA13F53A18EFC49400506E83 /* Gradient_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA13F50E18EFC49400506E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TheAppGuruz-New-6";
+				TargetAttributes = {
+					EA13F53918EFC49400506E83 = {
+						TestTargetID = EA13F51518EFC49400506E83;
+					};
+				};
+			};
+			buildConfigurationList = EA13F51118EFC49400506E83 /* Build configuration list for PBXProject "Gradient_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA13F50D18EFC49400506E83;
+			productRefGroup = EA13F51718EFC49400506E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA13F51518EFC49400506E83 /* Gradient_Demo */,
+				EA13F53918EFC49400506E83 /* Gradient_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA13F51418EFC49400506E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F53018EFC49400506E83 /* Main_iPad.storyboard in Resources */,
+				EA13F53518EFC49400506E83 /* Images.xcassets in Resources */,
+				EA13F52D18EFC49400506E83 /* Main_iPhone.storyboard in Resources */,
+				EA13F52418EFC49400506E83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13F53818EFC49400506E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F54618EFC49400506E83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA13F51218EFC49400506E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F53318EFC49400506E83 /* ViewController.m in Sources */,
+				EA13F52A18EFC49400506E83 /* AppDelegate.m in Sources */,
+				EA13F55318EFC52000506E83 /* GradientView.m in Sources */,
+				EA13F52618EFC49400506E83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13F53618EFC49400506E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA13F54818EFC49400506E83 /* Gradient_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA13F54018EFC49400506E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA13F51518EFC49400506E83 /* Gradient_Demo */;
+			targetProxy = EA13F53F18EFC49400506E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA13F52218EFC49400506E83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F52318EFC49400506E83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA13F52B18EFC49400506E83 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F52C18EFC49400506E83 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EA13F52E18EFC49400506E83 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F52F18EFC49400506E83 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EA13F54418EFC49400506E83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA13F54518EFC49400506E83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA13F54918EFC49400506E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA13F54A18EFC49400506E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA13F54C18EFC49400506E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gradient_Demo/Gradient_Demo-Prefix.pch";
+				INFOPLIST_FILE = "Gradient_Demo/Gradient_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA13F54D18EFC49400506E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gradient_Demo/Gradient_Demo-Prefix.pch";
+				INFOPLIST_FILE = "Gradient_Demo/Gradient_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA13F54F18EFC49400506E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gradient_Demo.app/Gradient_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gradient_Demo/Gradient_Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gradient_DemoTests/Gradient_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA13F55018EFC49400506E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gradient_Demo.app/Gradient_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gradient_Demo/Gradient_Demo-Prefix.pch";
+				INFOPLIST_FILE = "Gradient_DemoTests/Gradient_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA13F51118EFC49400506E83 /* Build configuration list for PBXProject "Gradient_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13F54918EFC49400506E83 /* Debug */,
+				EA13F54A18EFC49400506E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA13F54B18EFC49400506E83 /* Build configuration list for PBXNativeTarget "Gradient_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13F54C18EFC49400506E83 /* Debug */,
+				EA13F54D18EFC49400506E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA13F54E18EFC49400506E83 /* Build configuration list for PBXNativeTarget "Gradient_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA13F54F18EFC49400506E83 /* Debug */,
+				EA13F55018EFC49400506E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA13F50E18EFC49400506E83 /* Project object */;
+}

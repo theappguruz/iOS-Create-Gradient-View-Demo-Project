@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4du-fC-1st">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="kjh-A6-3Y4">
+            <objects>
+                <viewController id="4du-fC-1st" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tzW-2c-zYj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zu9-hh-BfT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kg2-zP-LYk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euL-gV-gbN" customClass="GradientView">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpx-Vj-asx">
+                                <rect key="frame" x="53" y="209" width="215" height="56"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="jWp-M1-7OF"/>
+                                    <constraint firstAttribute="height" constant="56" id="yNt-Ee-GPL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Linear Gradient">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnLinearClicked:" destination="4du-fC-1st" eventType="touchUpInside" id="T7R-fr-cRt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mzl-gB-sHO">
+                                <rect key="frame" x="52" y="302" width="215" height="56"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="chX-xm-EI3"/>
+                                    <constraint firstAttribute="height" constant="56" id="ihV-Dr-wkN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Radial Gradient">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnRadialClicked:" destination="4du-fC-1st" eventType="touchUpInside" id="pIi-YV-JaF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="euL-gV-gbN" firstAttribute="centerX" secondItem="Kg2-zP-LYk" secondAttribute="centerX" id="1pn-Lb-qZD"/>
+                            <constraint firstItem="rpx-Vj-asx" firstAttribute="top" secondItem="tzW-2c-zYj" secondAttribute="bottom" constant="189" id="RRw-2G-xlL"/>
+                            <constraint firstItem="euL-gV-gbN" firstAttribute="top" secondItem="Kg2-zP-LYk" secondAttribute="topMargin" id="a6Q-AB-Nqr"/>
+                            <constraint firstItem="Zu9-hh-BfT" firstAttribute="top" secondItem="euL-gV-gbN" secondAttribute="bottom" id="dU9-xO-ist"/>
+                            <constraint firstItem="euL-gV-gbN" firstAttribute="leading" secondItem="Kg2-zP-LYk" secondAttribute="leadingMargin" constant="-20" id="nvA-aC-ABg"/>
+                            <constraint firstItem="euL-gV-gbN" firstAttribute="centerY" secondItem="Kg2-zP-LYk" secondAttribute="centerY" id="o6g-OM-IGI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="euL-gV-gbN" secondAttribute="trailing" constant="-20" id="odZ-RR-fY3"/>
+                            <constraint firstItem="Mzl-gB-sHO" firstAttribute="centerX" secondItem="Kg2-zP-LYk" secondAttribute="centerX" id="q6W-Yo-fJf"/>
+                            <constraint firstItem="Mzl-gB-sHO" firstAttribute="top" secondItem="rpx-Vj-asx" secondAttribute="bottom" constant="37" id="ulj-cs-PiG"/>
+                            <constraint firstItem="rpx-Vj-asx" firstAttribute="centerX" secondItem="Kg2-zP-LYk" secondAttribute="centerX" id="zDa-YH-kfK"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="vwGradient" destination="euL-gV-gbN" id="CJ3-uL-F7A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D4K-Tq-M04" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="244"/>
+        </scene>
+    </scenes>
+</document>
